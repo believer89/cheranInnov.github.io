@@ -429,7 +429,7 @@ a:hover {
 }
 
 .custom-bg {
-  background-color: #2b6d360d;
+  /* background-color: #2b6d360d; */
 }
 
 .owl-carousel-wrapper {
@@ -456,6 +456,7 @@ a:hover {
 .custom-para {
   color: rgb(61, 61, 61) !important;
   font-size: 1.2rem !important;
+  text-align: justify !important;
   line-height: 140%;
 }
 
@@ -784,7 +785,7 @@ header.site-navbar .container {
 }
 
 .site-navbar .site-navigation .site-menu .active {
-  color: #3e64ff !important;
+  font-weight: 600 !important;
 }
 
 .site-navbar .site-navigation .site-menu a {
@@ -2461,6 +2462,8 @@ header.site-navbar .container {
 
 .media-02819>.img-fluid {
   cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.9);
 }
 
 .service-29193 {
@@ -2480,8 +2483,10 @@ header.site-navbar .container {
 
 .service-29193 .img-wrap {
   position: relative;
-  border: 5px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  /* border: 5px solid rgba(0, 0, 0, 0.1); */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.9);
   display: flex;
   width: 100%;
   height: 100%;
@@ -2492,6 +2497,7 @@ header.site-navbar .container {
 }
 
 .service-29193 img {
+  border-radius: 20px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -2500,6 +2506,19 @@ header.site-navbar .container {
   /* Effects */
   cursor: pointer;
   transition: all 700ms ease-out;
+}
+
+#about-us {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 6rem !important;
+
+}
+
+.certificate-img {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .service-29193 img:hover {
