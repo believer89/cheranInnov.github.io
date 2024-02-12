@@ -467,7 +467,7 @@ a:hover {
 
 .site-footer {
   padding: 4em 0;
-  background-color: #c9ccd4;
+  background-color: rgba(61, 61, 61, 0.03) !important;
 }
 
 @media (min-width: 768px) {
@@ -2462,8 +2462,8 @@ header.site-navbar .container {
 
 .media-02819>.img-fluid {
   cursor: pointer;
-  border-radius: 15px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.9);
+  /* border-radius: 15px; */
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.9); */
 }
 
 .service-29193 {
@@ -2483,10 +2483,10 @@ header.site-navbar .container {
 
 .service-29193 .img-wrap {
   position: relative;
-  border-radius: 24px;
+  /* border-radius: 24px; */
   /* border: 5px solid rgba(0, 0, 0, 0.1); */
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.9);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.9); */
   display: flex;
   width: 100%;
   height: 100%;
@@ -2497,7 +2497,7 @@ header.site-navbar .container {
 }
 
 .service-29193 img {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   position: relative;
   height: 100%;
   width: 100%;
@@ -2516,9 +2516,17 @@ header.site-navbar .container {
 }
 
 .certificate-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 3rem;
   margin-bottom: 0;
   padding: 0;
+}
+
+.certificate-img img {
+  width: 25%;
+  filter: grayscale(100%);
 }
 
 .service-29193 img:hover {
@@ -2569,8 +2577,8 @@ header.site-navbar .container {
 
 .filter-button {
   font-size: 1rem;
-  border: 1px solid rgba(61, 61, 61, 0.6);
-  border-radius: 5px;
+  border: 1px solid rgba(61, 61, 61, 0.1);
+  /* border-radius: 5px; */
   cursor: pointer;
   transition: all 150ms ease-in;
 }
