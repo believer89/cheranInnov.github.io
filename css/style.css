@@ -2525,8 +2525,8 @@ header.site-navbar .container {
 }
 
 .certificate-img img {
-  width: 25%;
-  filter: grayscale(100%);
+  width: 40%;
+  /* filter: grayscale(100%); */
 }
 
 .service-29193 img:hover {
